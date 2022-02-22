@@ -35,8 +35,11 @@ function ellenorzes(){
         pont+=1;
     }
 
-    document.getElementById("helyesvalasz").innerHTML = " <- helyes válasz"
+    document.getElementById("helyesvalasz").innerHTML = " Helyes válasz: Harcos"
     document.getElementById("masodikhelyes").innerHTML = " Helyes válasz: Arany"
     document.getElementById("harmadikhelyes").innerHTML = " Helyes válaszok: Nagy Sivatag , Fehér-hegység , Orkok földje"
+    document.getElementById("negyedikmegoldas").innerHTML = " Helyes válasz: Fekete-erdő"
+    document.getElementById("otodikmegoldas").innerHTML = " Helyes válasz: Troll völgy"
+    document.getElementById("vegsopont").innerHTML = "Elért pontszám: "+pont;
     console.log(pont);
 }
