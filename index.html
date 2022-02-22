@@ -13,17 +13,40 @@
 
         1. Melyik <strong>karakter</strong> nem tud távolról ütni?
         <br>
-        <input type="radio" name="elsokerdes" id="elso">
+        <input type="radio" name="kerdesek" id="elso">
         <label for="elso">Harcos</label>
         <br>
-        <input type="radio" name="masodikkerdes" id="masodik">
+        <input type="radio" name="kerdesek" id="masodik">
         <label for="masodik">Mágus</label>
         <br>
-        <input type="radio" name="harmadikkerdes" id="harmadik">
+        <input type="radio" name="kerdesek" id="harmadik">
         <label for="harmadik">íjjász</label>
-
+        <br>
 
         2. Melyik a legnagyobb értékű eszköz?
+        <br>
+        <select name="fizetoeszkozok" size="5">
+            <option value="arany"> Arany </option>
+            <option value="ezust"> Ezüst </option>
+            <option value="réz"> Réz </option>
+            <option value="fitying"> Fitying </option>
+            <option value="gyemant"> Gyémánt </option>
+        </select>
+        <br>
+
+        3. Melyik mapokon lehet aranyat farmolni?
+
+        <br>
+        <div class="row">
+            <div class="col-12 py-2">Több válasz is lehetséges</div>
+            <div class="col-3"><input type="checkbox" id="" name="" value="">Nagy Sivatag</div>
+            <div class="col-9"><input type="checkbox" id="" name="" value="">Fekete-erdő</div>
+            <div class="col-3"><input type="checkbox" id="" name="" value="">Fehér-hegység</div>
+            <div class="col-9"><input type="checkbox" id="" name="" value="">Sárga-ösvény</div>
+            <div class="col-3"><input type="checkbox" id="" name="" value="">Troll völgy</div>
+            <div class="col-9"><input type="checkbox" id="" name="" value="">Orkok földje</div>
+        </div>
+        
 
     </div>
 </body>
