@@ -19,12 +19,24 @@ function ellenorzes(){
     if(document.getElementById("cbox1").checked==true){
         pont+=1;
     }
+    if(document.getElementById("cbox2").checked==true){
+        pont-=1;
+    }
     if(document.getElementById("cbox3").checked==true){
         pont+=1;
+    }
+    if(document.getElementById("cbox4").checked==true){
+        pont-=1;
+    }
+    if(document.getElementById("cbox5").checked==true){
+        pont-=1;
     }
     if(document.getElementById("cbox6").checked==true){
         pont+=1;
     }
 
+    document.getElementById("helyesvalasz").innerHTML = " <- helyes válasz"
+    document.getElementById("masodikhelyes").innerHTML = " Helyes válasz: Arany"
+    document.getElementById("harmadikhelyes").innerHTML = " Helyes válaszok: Nagy Sivatag , Fehér-hegység , Orkok földje"
     console.log(pont);
 }
