@@ -15,5 +15,16 @@ function ellenorzes(){
     var select = document.getElementById("fizetoeszkozok");
     var jovalasz = select.options[select.selectedIndex].value;
     pont+=parseInt(jovalasz);
+
+    if(document.getElementById("cbox1").checked==true){
+        pont+=1;
+    }
+    if(document.getElementById("cbox3").checked==true){
+        pont+=1;
+    }
+    if(document.getElementById("cbox6").checked==true){
+        pont+=1;
+    }
+
     console.log(pont);
 }
